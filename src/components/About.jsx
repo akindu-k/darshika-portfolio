@@ -2,7 +2,7 @@ const highlights = [
   { icon: '🎓', label: 'University of Moratuwa', sub: 'Transport Management & Logistics Engineering' },
   { icon: '🦁', label: 'Leo Club President', sub: 'Large-scale community & development projects' },
   { icon: '🚀', label: 'PickMe Internship', sub: 'Supply-demand dynamics & operational strategy' },
-  { icon: '⚙️', label: 'Tech Interests', sub: 'ERP, SAP, Maritime & Aviation Operations' },
+  { icon: '⚙️', label: 'Tech Interests', sub: 'ERP-SAP, Maritime & Aviation Operations' },
 ];
 
 export default function About() {

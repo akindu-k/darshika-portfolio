@@ -12,17 +12,6 @@ const projects = [
     color: 'from-violet-500 to-purple-600',
   },
   {
-    title: 'ParkSmart – Smart Car Parking IoT Solution',
-    tags: ['IoT', 'Smart City', 'Mobile App', 'Dynamic Pricing'],
-    description:
-      'An IoT-based smart parking system aimed at improving parking efficiency in urban environments such as shopping malls. Focuses on reducing congestion, minimizing search time, and enhancing user convenience through real-time parking availability.',
-    detail:
-      'Key features include dynamic slot allocation, real-time occupancy tracking using IoT sensors, and a mobile-based interface for navigation and booking. Explores dynamic pricing strategies and value-added services such as EV charging and car wash integration.',
-    link: null,
-    icon: '🅿️',
-    color: 'from-teal-500 to-cyan-600',
-  },
-  {
     title: 'Leo Bot – Telegram-Based Resource Platform',
     tags: ['Telegram Bot', 'Automation', 'Document Management'],
     description:
@@ -32,6 +21,17 @@ const projects = [
     link: null,
     icon: '🤝',
     color: 'from-orange-500 to-amber-500',
+  },
+    {
+    title: 'ParkSmart – Smart Car Parking IoT Solution',
+    tags: ['IoT', 'Smart City', 'Mobile App', 'Dynamic Pricing'],
+    description:
+      'An IoT-based smart parking system aimed at improving parking efficiency in urban environments such as shopping malls. Focuses on reducing congestion, minimizing search time, and enhancing user convenience through real-time parking availability.',
+    detail:
+      'Key features include dynamic slot allocation, real-time occupancy tracking using IoT sensors, and a mobile-based interface for navigation and booking. Explores dynamic pricing strategies and value-added services such as EV charging and car wash integration.',
+    link: null,
+    icon: '🅿️',
+    color: 'from-teal-500 to-cyan-600',
   },
 ];
 
