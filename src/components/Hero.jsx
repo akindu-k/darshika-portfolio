@@ -1,3 +1,5 @@
+import heroImg from '../assets/hero.jpeg'
+
 export default function Hero() {
   return (
     <section
@@ -42,12 +44,11 @@ export default function Hero() {
 
         {/* Profile image placeholder */}
         <div className="flex-shrink-0">
-          <div className="w-56 h-56 md:w-72 md:h-72 rounded-full bg-slate-700 border-4 border-teal-500/40 flex flex-col items-center justify-center text-slate-400 shadow-2xl">
-            <svg className="w-20 h-20 mb-2 text-slate-500" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/>
-            </svg>
-            <span className="text-xs text-slate-500">Profile Photo</span>
-          </div>
+          <img
+            src={heroImg}
+            alt="Darshika"
+            className="w-56 h-56 md:w-72 md:h-72 rounded-full object-cover border-4 border-teal-500/40 shadow-2xl"
+          />
         </div>
       </div>
 

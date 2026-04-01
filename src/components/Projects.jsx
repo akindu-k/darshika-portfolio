@@ -18,7 +18,8 @@ const projects = [
       'A Telegram bot designed for Leo members across Sri Lanka to easily access and download essential Leo documents and resources provided by the council.',
     detail:
       'Simplifies document distribution by enabling users to quickly search and retrieve materials through a user-friendly interface, eliminating the need for manual sharing. Improved accessibility and ensured members stay updated with the latest official resources.',
-    link: null,
+    link: 'https://t.me/leobot306bot',
+    linkLabel: 'Open in Telegram',
     icon: '🤝',
     color: 'from-orange-500 to-amber-500',
   },
