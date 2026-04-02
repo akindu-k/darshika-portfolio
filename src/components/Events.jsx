@@ -61,13 +61,7 @@ export default function Events() {
               key={event.title}
               className="rounded-2xl border border-slate-100 overflow-hidden shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 flex flex-col"
             >
-              {/* Image placeholder */}
-              <div className="h-44 bg-slate-100 flex flex-col items-center justify-center text-slate-400 relative">
-                <span className="text-5xl mb-2">{event.icon}</span>
-                <span className="text-xs text-slate-400">Event Photo</span>
-                <div className={`absolute bottom-0 left-0 right-0 h-1 ${event.accent}`} />
-              </div>
-
+              <div className={`h-1.5 ${event.accent}`} />
               <div className="p-6 flex flex-col flex-1">
                 <span className={`self-start text-xs font-semibold px-3 py-1 rounded-full border ${event.color} mb-3`}>
                   {event.tag}
