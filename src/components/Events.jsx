@@ -43,6 +43,28 @@ const events = [
     highlight: 'Encouraged participants to transform waste materials into fashionable designs.',
     image: null,
   },
+  {
+    title: 'Tharka – Mahesh Abeywickrama Memorial Debate & Oratory Competition',
+    icon: '🎙️',
+    color: 'bg-red-100 text-red-700 border-red-200',
+    accent: 'bg-red-500',
+    tag: 'Education · Helakuru Collaboration',
+    description:
+      'One of Sri Lanka\'s large-scale school-level debating initiatives, organized in collaboration with Helakuru to empower communication skills among school students.',
+    highlight: 'Expanded the scope by introducing an oratory competition alongside the debate segment, nurturing confident and articulate young leaders across the country.',
+    image: null,
+  },
+  {
+    title: 'VR Wandhana',
+    icon: '🥽',
+    color: 'bg-indigo-100 text-indigo-700 border-indigo-200',
+    accent: 'bg-indigo-500',
+    tag: 'Innovation · Elder Care · VR',
+    description:
+      'An innovative initiative utilizing virtual reality technology to provide elderly residents of a care home in Horana with the opportunity to virtually visit Sri Lanka\'s most sacred religious sites.',
+    highlight: 'Bridged the gap between physical limitations and spiritual fulfillment, demonstrating how emerging technologies can enhance emotional well-being and quality of life for the elderly.',
+    image: null,
+  },
 ];
 
 export default function Events() {
